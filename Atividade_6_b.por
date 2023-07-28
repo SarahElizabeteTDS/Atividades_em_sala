@@ -8,7 +8,7 @@ programa
 		escreva("Qual número na sequência você gostaria de ver?\n")
 		leia(sequenciaInformada)
 
-		para(numeroCer = 0; numeroCer <= 500; numeroCer = numeroAnt + numeroAnt2)
+		para(numeroCer = 0; numeroCer <= 50000; numeroCer = numeroAnt + numeroAnt2)
 		{
 			numeroAnt = numeroAnt2
 			numeroAnt2 = numeroCer
@@ -21,4 +21,3 @@ programa
 
 	}
 }
-
