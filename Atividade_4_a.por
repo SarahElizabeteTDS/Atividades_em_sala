@@ -18,7 +18,7 @@ inteiro base, expoente, resultado, base2
 			base2 = resultado
 		}
 
-		escreva("O resultado da potencia é: ", resultado, " Sua base é: ", base, " Seu expoente é: ", expoente)
+		escreva("O resultado da potencia é: ", resultado, "\nSua base é: ", base, "\nSeu expoente é: ", expoente)
 		
 	}
 	
