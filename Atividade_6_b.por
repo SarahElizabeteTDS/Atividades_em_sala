@@ -13,10 +13,10 @@ programa
 			numeroAnt = numeroAnt2
 			numeroAnt2 = numeroCer
 			sequencia++
-			se(sequenciaInformada == sequencia)
-			{
-			escreva("O ", sequenciaInformada,"º número da sequência é: ",numeroCer,"\n")
-			}	
+			  se(sequenciaInformada == sequencia)
+			  {
+				  escreva("O ", sequenciaInformada,"º número da sequência é: ",numeroCer,"\n")
+			  }	
 		}
 
 	}
