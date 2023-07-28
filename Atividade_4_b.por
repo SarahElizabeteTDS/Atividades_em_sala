@@ -1,21 +1,23 @@
 programa
 {
 	
-inteiro base, expoente, resultado, base2
+	inteiro base, expoente, resultado, base2
 	
 	funcao inicio()
 	{
+		
 		escreva("Informe a base: ")
 		leia(base)
 
 		escreva("Informe o expoente: ")
 		leia(expoente)
 
-		potencia()
+		potencia(base,expoente)
+
 		
 	}
 	
-	funcao potencia()
+	funcao potencia(inteiro base, inteiro expoente)
 	{
 		para(inteiro exp = expoente; exp >= 0; exp--)
 		{
@@ -30,4 +32,3 @@ inteiro base, expoente, resultado, base2
 	
 	
 }
-
