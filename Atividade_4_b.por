@@ -8,6 +8,7 @@ programa
 		
 		escreva("Informe a base: ")
 		leia(base)
+		base2 = base
 
 		escreva("Informe o expoente: ")
 		leia(expoente)
@@ -15,20 +16,17 @@ programa
 		potencia(base,expoente)
 
 		
-	}
+	}//fim funcao incio
 	
 	funcao potencia(inteiro base, inteiro expoente)
 	{
-		para(inteiro exp = expoente; exp >= 0; exp--)
+		para(inteiro exp = expoente; exp > 1; exp--)
 		{
-			base2 = base
 			resultado = base2 * base
 			base2 = resultado
 		}
 		
 		escreva("O resultado da potencia é: ", resultado, "\nSua base é: ", base, "\nSeu expoente é: ", expoente)
-	}
-
-	
-	
+	}//fim funcao	
 }
+
