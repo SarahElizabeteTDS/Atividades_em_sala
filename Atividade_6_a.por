@@ -10,7 +10,11 @@ programa
 			escreva(numeroCer,"\n")
 			numeroAnt = numeroAnt2
 			numeroAnt2 = numeroCer
-		}
-	}
+		}//fim para
+			
+			numeroAnt = numeroAnt2
+			numeroAnt2 = numeroCer
+			escreva(numeroCer,"\n")
+			
+	}//fim inicio
 }
-
