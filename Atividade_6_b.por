@@ -8,8 +8,8 @@ programa
 		escreva("Até que termo você gostaria de ver? ")
 		leia(termoInformado)
 		escreva("\n")
-
-		para(numeroAtual = 1; verdadeiro; numeroAtual = numeroAnt + numeroAnt2)
+		
+		para(numeroAtual = 0; verdadeiro; numeroAtual = numeroAnt + numeroAnt2)
 		{
 			escreva(numeroAtual,"\n")
 			numeroAnt = numeroAnt2
